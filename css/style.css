@@ -143,4 +143,42 @@ header{
 }
 .contact{
     background-color: #EFF6FF;
+    padding: 80px 100px;
+}
+.contact h1{
+    font-size: 32px;
+    text-align: center;
+}
+.contact_form{
+    max-width: 600px; 
+    margin: auto;
+}
+.contact_form input{
+    width: 100%;
+    padding: 12px 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+}
+#messageInput{
+    width: 100%;
+    height: 120px;
+    padding: 12px 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+}
+.contact_form button{
+    padding: 12px 32px;
+    font-size: 16px;
+    background-color: #2563eb;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+}
+.contact_form button:hover{
+    background-color: #1D4ED8;
+    cursor: pointer;
 }
