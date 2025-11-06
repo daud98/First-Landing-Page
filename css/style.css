@@ -20,11 +20,11 @@ header{
     position: sticky;
     top: 0;
 }
-.logo{
+.logo_head{
     width: 50%;
     height: 100px;    
 }
-.logo img{
+.logo_head img{
     width: 300px;
     height: 100px;
 }
@@ -181,4 +181,16 @@ header{
 .contact_form button:hover{
     background-color: #1D4ED8;
     cursor: pointer;
+}
+footer{
+    background-color: #2D3648;
+    color: #E2E8F0;
+    padding: 40px 100px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.logo_foot img{
+    width: 100% ;
+    background-color: #f2f3f5;
+    border-radius: 30px;
 }
