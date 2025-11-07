@@ -276,6 +276,7 @@ footer{
 }
 footer{
     grid-template-columns: 100%;
+    gap: 0;
 }
 .logo_foot img{
     margin-left: 60px;
@@ -295,5 +296,9 @@ footer{
 .social i{
     display: inline;
     margin: 10px;
+}
+.map{
+    border-radius: 10px;
+    height: 150px;
 }
 }
