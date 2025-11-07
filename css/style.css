@@ -271,8 +271,29 @@ footer{
 .contact_form{
     max-width: 400px; 
 }
+#messageInput{
+    height: 100px;
+}
+footer{
+    grid-template-columns: 100%;
+}
 .logo_foot img{
-    width: 100%;
-    height: auto;
+    margin-left: 60px;
+}
+.links{
+    margin: 25px;
+}
+.links p {
+    display: inline;
+    margin: 25px;
+    line-height: 3;
+}
+.social{
+    margin: 20px;
+    padding-bottom:10px;
+}
+.social i{
+    display: inline;
+    margin: 10px;
 }
 }
