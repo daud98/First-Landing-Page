@@ -224,10 +224,18 @@ footer{
     cursor: pointer;
 }
 .bottomBar{
-    height: 50px;
-    grid-column-start: 1;
-    grid-column-end: 5;
     text-align: center;
+    color: #E2E8F0 ;
+    height: 50px;
     background-color: #0F172A;
     font-size: 14px;
+    margin: 0;
+}
+.bottomBar h1{
+    margin: 0;
+}
+
+
+@media all and (max-width:768px){
+
 }
