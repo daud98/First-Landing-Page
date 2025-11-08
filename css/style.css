@@ -107,6 +107,7 @@ header{
     width: 70%;
     border-radius: 10px;
     box-shadow: 5px 10px 5px 3px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
 }
 .services{
     background-color: #FFFFFF;
@@ -300,5 +301,41 @@ footer{
 .map{
     border-radius: 10px;
     height: 150px;
+}
+}
+
+@media all and (max-width:480px){
+.logo_head img{
+    width: 165px;
+    height: 70px;
+}
+.NavBar li{
+    display: block;
+    padding: 0;
+    margin: 0px 0px 0px 65px;
+}
+.NavBar li a{
+    font-size:16px ;
+}
+.banner h1{
+    margin-bottom: 10px;
+}
+.banner p{
+    font-size: 25px;
+}
+.about{
+    grid-template-columns: 100%;
+    gap: 20px;
+    padding: 80px 100px;
+}
+.about_img img{
+    width: 250px;
+    height: 250px;
+}
+.services{
+    grid-template-columns: 100%;
+}
+.services h1{
+    grid-column-end: 2;
 }
 }
