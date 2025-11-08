@@ -82,6 +82,7 @@ header{
     text-align: left;
     top: 40px;
     right: 0;
+    box-shadow: 4px 4px 4px 1px rgb(0,0,0,0.3);
 }
 
 .dropdown_menu li {
