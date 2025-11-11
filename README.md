@@ -1,4 +1,5 @@
-﻿BrightTech Solutions Landing Page
+# ﻿BrightTech Solutions Landing Page
+
 A fully responsive, single-page professional website (landing page) for a fictional IT consultancy, BrightTech Solutions. This project was developed to demonstrate strong proficiency in semantic HTML5 structure, responsive design principles using CSS, and modern web aesthetics.
 
 ✨ Features
