@@ -415,9 +415,6 @@ header{
 .services h1{
     grid-column-end: 2;
 }
-.card{
-
-}
 .footer_container{
     grid-template-columns: 100%;
     gap: 0;
